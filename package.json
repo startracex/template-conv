@@ -1,0 +1,23 @@
+{
+  "name": "template-conv",
+  "version": "0.0.0",
+  "description": "Convert simple templates",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [
+    "template",
+    "string",
+    "convert",
+    "replace",
+    "replace-all"
+  ],
+  "author": "startracex",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
