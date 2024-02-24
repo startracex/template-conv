@@ -20,7 +20,7 @@ export function convertTemplate(
     arg0 = args;
   }
 
-  let result = isFunc ? template(arg0) : template;
+  const result = isFunc ? template(arg0) : template;
   return Object.entries(arg0)
     .sort(([key1], [key2]) => {
       return key2.length - key1.length;
